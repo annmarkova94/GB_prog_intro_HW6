@@ -36,7 +36,7 @@ double[] EnterArrayOf4NumbersSeparatedByCommas(int length)
     while (yourArray.Length != length)
     {
         TextColorRed();
-        Console.Write("This is not a list of 4 numbers separated by commas, try again: ");
+        Console.Write($"This is not a list of {length} numbers separated by commas, try again: ");
         yourArray = EnterArrayNumbersSeparatedByCommas();
     }
     TextColorDarkGreen();
